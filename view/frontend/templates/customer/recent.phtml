@@ -1,0 +1,39 @@
+<?php
+/**
+ * Copyright © 2013-2017 GiaPhuGroup Ltd. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+/** @var $block \PHPCuong\ProductQuestionAndAnswer\Block\Customer\Recent */
+?>
+
+<?php if ($block->getQuestions() && count($block->getQuestions())): ?>
+<div class="block block-questions-dashboard">
+    <div class="block-title">
+        <strong><?php /* @escapeNotVerified */ echo __('My Recent Questions') ?></strong>
+        <a class="action view" href="<?php /* @escapeNotVerified */ echo $block->getAllQuestionsUrl() ?>"><span><?php /* @escapeNotVerified */ echo __('View All') ?></span></a>
+    </div>
+    <div class="block-content">
+        <table>
+            <thead>
+                <tr>
+                    <th><?php echo __('Created'); ?></th>
+                    <th><?php echo __('Product Name'); ?></th>
+                    <th><?php echo __('Title'); ?></th>
+                    <th><?php echo __('Status'); ?></th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php foreach ($block->getQuestions() as $question): ?>
+                <tr>
+                    <td><?php /* @escapeNotVerified */ echo $block->dateFormat($question->getQuestionCreatedAt()); ?></td>
+                    <td><a href="<?php /* @escapeNotVerified */ echo $block->getProductUrl($question->getEntityPkValue()); ?>"><?php echo $block->escapeHtml($question->getProductName()); ?></a></td>
+                    <td><?php echo $block->escapeHtml($block->truncateString($question->getQuestionDetail())); ?></td>
+                    <td><?php echo $this->helper('PHPCuong\ProductQuestionAndAnswer\Helper\Data')->getStatusText($question->getQuestionStatusId()); ?></td>
+                </tr>
+                <?php endforeach; ?>
+            </tbody>
+        </table>
+    </div>
+</div>
+<?php endif; ?>

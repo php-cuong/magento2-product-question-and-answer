@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2013-2017 GiaPhuGroup, Ltd. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <catalog>
+            <question>
+                <allow_guest>1</allow_guest>
+                <allow_guest_reply>1</allow_guest_reply>
+                <allow_customer>1</allow_customer>
+                <allow_customer_reply>1</allow_customer_reply>
+                <list_per_page>5</list_per_page>
+                <auto_approval_new_question>1</auto_approval_new_question>
+                <auto_approval_new_answer>1</auto_approval_new_answer>
+                <rules>/product-question-rules/</rules>
+            </question>
+        </catalog>
+    </default>
+</config>

@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'customer-question';
+  src:  url('fonts/customer-question.eot?t29cdu');
+  src:  url('fonts/customer-question.eot?t29cdu#iefix') format('embedded-opentype'),
+    url('fonts/customer-question.ttf?t29cdu') format('truetype'),
+    url('fonts/customer-question.woff?t29cdu') format('woff'),
+    url('fonts/customer-question.svg?t29cdu#customer-question') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-customer-question-"], [class*=" icon-customer-question-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'customer-question' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-customer-question-triangle-down:before {
+  content: "\e903";
+}
+.icon-customer-question-hammer2:before {
+  content: "\e9a8";
+}
+.icon-customer-question-reply:before {
+  content: "\e900";
+}
+.icon-customer-question-thumbs-down:before {
+  content: "\e901";
+}
+.icon-customer-question-thumbs-up:before {
+  content: "\e902";
+}

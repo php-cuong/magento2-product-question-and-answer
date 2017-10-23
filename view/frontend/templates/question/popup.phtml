@@ -1,0 +1,22 @@
+<form action="<?php /* @escapeNotVerified */ echo $block->getAction(); ?>" class="question-form hidden" method="post" id="question-form-popup" data-role="question-form-popup" data-mage-init='{"validation":{}}'>
+    <?php echo $block->getBlockHtml('formkey'); ?>
+    <fieldset class="fieldset question-fieldset">
+        <div class="field question-field-name required">
+            <label for="name_field" class="label"><span><?php echo __('Full Name');?></span></label>
+            <div class="control">
+                <input type="text" name="author_name" id="author_name" class="input-text" data-validate="{required:true}" aria-required="true" placeholder="<?php echo __('Full Name');?> (<?php echo __('required');?>)" />
+            </div>
+        </div>
+        <div class="field question-field-email required">
+            <label for="email_field" class="label"><span><?php echo __('Email');?></span></label>
+            <div class="control">
+                <input type="text" name="author_email" id="author_email" class="input-text" data-validate="{required:true, 'validate-email':true}" aria-required="true" placeholder="<?php echo __('Email to get feedback');?> (<?php echo __('required');?>)" />
+            </div>
+        </div>
+        <div class="actions-toolbar question-form-popup-actions">
+            <button type="submit" class="action submit primary">
+                <span><?php /* @escapeNotVerified */ echo __('Submit Question') ?></span>
+            </button>
+        </div>
+    </fieldset>
+</form>

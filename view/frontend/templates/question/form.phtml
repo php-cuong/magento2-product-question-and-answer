@@ -1,0 +1,61 @@
+<?php
+/**
+ * Copyright © 2013-2017 GiaPhuGroup Ltd. All rights reserved.
+ * See COPYING.txt for license details.
+ *
+ * @var $block \PHPCuong\ProductQuestionAndAnswer\Block\Form
+ */
+?>
+<?php if (!$block->getAllowToWrite()): ?>
+    <style>
+        .question-add {
+            display: none;
+        }
+    </style>
+<?php endif; ?>
+<div class="question-add">
+    <div class="block-title"><strong><?php /* @escapeNotVerified */ echo __('Write Your Own Question') ?></strong></div>
+    <div class="block-content">
+        <form action="<?php /* @escapeNotVerified */ echo $block->getAction(); ?>" class="question-form" method="post" id="question-form" data-role="product-question-form" data-mage-init='{"validation":{}}'>
+            <?php echo $block->getBlockHtml('formkey'); ?>
+            <input type="hidden" name="type" value="1" id="reply-on-type" />
+            <input type="hidden" name="question_id" value="" id="commentId"/>
+            <input type="hidden" name="author_name" value="" id="author_name"/>
+            <input type="hidden" name="author_email" value="" id="author_email"/>
+            <textarea name="detail" id="detail" cols="5" rows="6" placeholder="<?php /* @escapeNotVerified */ echo __('Write Your Own Question') ?>" data-validate="{required:true, minlength:20}"></textarea>
+            <div class="actions-toolbar question-form-actions">
+                <div class="question-policy">
+                    <a href="<?php echo $block->getQuestionRulesUrl(); ?>" target="_blank"><b><?php echo __('Question Rules'); ?></b></a>
+                </div>
+                <div class="primary actions-primary">
+                    <button type="button" class="action cancel"><span><?php /* @escapeNotVerified */ echo __('Cancel') ?></span></button>
+                    <button type="submit" class="action submit primary"><span><?php /* @escapeNotVerified */ echo __('Submit Question') ?></span></button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<?php if ($block->getIsGuest() && !$block->getAllowToWrite() && $block->getIsCustomersAllowToWrite()): ?>
+<div class="message info notlogged">
+    <?php /* @escapeNotVerified */ echo __('Only registered users can write questions. Please <a href="%1">Sign in</a> or <a href="%2">create an account</a>', $block->getLoginUrl(), $block->getRegisterUrl()) ?>
+</div>
+<?php endif; ?>
+<div id="question-popup-content" class="hidden-input">
+    <?php echo $block->getChildHtml(); ?>
+</div>
+<script type="text/x-magento-init">
+    {
+        "#question-popup-content": {
+            "PHPCuong_ProductQuestionAndAnswer/js/question-authentication-popup": {
+                "popupTitle": "<?php /* @escapeNotVerified */ echo __('Sending Information'); ?>",
+                "innerWidth": "400",
+                "parentFormId": "#question-form",
+                "titleButtonAnswer": "<?php /* @escapeNotVerified */ echo __('Submit Answer'); ?>",
+                "titleButtonQuestion": "<?php /* @escapeNotVerified */ echo __('Submit Question'); ?>",
+                "typeSubmit": "1",
+                "titleAnswering": "<?php /* @escapeNotVerified */ echo __('Write Your Own Answer') ?>",
+                "titleAsking": "<?php /* @escapeNotVerified */ echo __('Write Your Own Question') ?>"
+            }
+        }
+    }
+</script>

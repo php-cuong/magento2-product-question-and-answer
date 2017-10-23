@@ -1,0 +1,189 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M0 384l383.75 383.75 383.75-383.75h-767.5z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "width": 767,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "triangle-down"
+        ],
+        "grid": 16
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 1,
+        "id": 0,
+        "name": "triangle-down",
+        "prevSize": 32,
+        "code": 59651
+      },
+      "setIdx": 0,
+      "setId": 5,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M1010.174 915.75l-548.634-499.458 25.534-25.598c20.894-20.954 32.188-48.030 33.918-75.61 1.002-0.45 2.002-0.912 2.958-1.442l102.99-64.402c13.934-16.392 12.916-42.268-2.284-57.502l-179.12-179.608c-15.19-15.234-40.998-16.262-57.344-2.284l-64.236 103.268c-0.526 0.966-0.99 1.966-1.44 2.974-27.502 1.736-54.5 13.056-75.398 34.006l-97.428 97.702c-20.898 20.956-32.184 48.026-33.918 75.604-1.004 0.45-2.004 0.916-2.964 1.446l-102.986 64.406c-13.942 16.39-12.916 42.264 2.276 57.496l179.12 179.604c15.194 15.238 40.996 16.262 57.35 2.286l64.228-103.27c0.528-0.958 0.988-1.96 1.442-2.966 27.502-1.738 54.504-13.050 75.398-34.004l28.292-28.372 498.122 550.114c14.436 15.944 36.7 18.518 49.474 5.712l50.356-50.488c12.764-12.808 10.196-35.132-5.706-49.614z"
+        ],
+        "tags": [
+          "hammer",
+          "gavel",
+          "rules",
+          "justice",
+          "legal"
+        ],
+        "defaultCode": 59816,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "hammer2, gavel",
+        "name": "hammer2",
+        "order": 3,
+        "id": 169,
+        "prevSize": 32,
+        "code": 59816
+      },
+      "setIdx": 2,
+      "setId": 1,
+      "iconIdx": 168
+    },
+    {
+      "icon": {
+        "paths": [
+          "M972.8 854.272c0 0-113.92-498.278-563.2-498.278v-203.981l-358.4 336.538 358.4 342.528v-223.078c243.866-0.051 436.019 21.555 563.2 246.272z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "reply"
+        ],
+        "grid": 20
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 1,
+        "id": 2,
+        "name": "reply",
+        "prevSize": 20,
+        "code": 59648
+      },
+      "setIdx": 1,
+      "setId": 3,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M325.222 647.066c6.81 18.227-181.197 186.061-71.526 322.099 25.651 31.795 112.691-152.32 236.288-235.622 68.147-46.029 226.816-143.923 226.816-198.042v-350.31c0-65.075-251.597-133.99-442.778-133.99-70.093 0-171.622 439.091-171.622 508.877 0 69.99 216.115 68.762 222.822 86.989zM768 642.202c33.69 0 153.6-20.48 153.6-159.898v-248.218c0-139.315-119.91-154.675-153.6-154.675-33.638 0 51.2 29.286 51.2 115.712v326.298c0 90.522-84.838 120.781-51.2 120.781z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "thumbs-down"
+        ],
+        "grid": 20
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 1,
+        "id": 1,
+        "name": "thumbs-down",
+        "prevSize": 20,
+        "code": 59649
+      },
+      "setIdx": 1,
+      "setId": 3,
+      "iconIdx": 1
+    },
+    {
+      "icon": {
+        "paths": [
+          "M698.778 376.934c-6.81-18.176 181.197-186.061 71.578-322.099-25.651-31.795-112.691 152.32-236.288 235.674-68.198 45.978-226.867 143.872-226.867 197.99v350.31c0 65.075 251.597 133.99 442.778 133.99 70.093 0 171.622-439.091 171.622-508.826 0-70.042-216.115-68.813-222.822-87.040zM256 381.798c-33.69 0-153.6 20.48-153.6 159.898v248.218c0 139.315 119.91 154.675 153.6 154.675 33.638 0-51.2-29.286-51.2-115.712v-326.298c0-90.522 84.838-120.781 51.2-120.781z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "thumbs-up"
+        ],
+        "grid": 20
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 2,
+        "id": 0,
+        "name": "thumbs-up",
+        "prevSize": 20,
+        "code": 59650
+      },
+      "setIdx": 1,
+      "setId": 3,
+      "iconIdx": 2
+    }
+  ],
+  "height": 1024,
+  "metadata": {
+    "name": "customer-question"
+  },
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-customer-question-",
+      "metadata": {
+        "fontFamily": "customer-question",
+        "majorVersion": 1,
+        "minorVersion": 0
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false,
+      "ie7": true,
+      "noie8": false,
+      "showSelector": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon"
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}
