@@ -43,8 +43,8 @@ Goto the product detail page.
 Administrator goto STORES -> Configuration -> Catalog -> Catalog -> Product Questions
 
 ## ScreenShot
-![ScreenShot](https://github.com/php-cuong/magento2-faqs-extensions/blob/master/Screenshot/configuration.png)
-![ScreenShot](https://github.com/php-cuong/magento2-faqs-extensions/blob/master/Screenshot/question-list.png)
-![ScreenShot](https://github.com/php-cuong/magento2-faqs-extensions/blob/master/Screenshot/sending-information.png)
-![ScreenShot](https://github.com/php-cuong/magento2-faqs-extensions/blob/master/Screenshot/recent-questions.png)
-![ScreenShot](https://github.com/php-cuong/magento2-faqs-extensions/blob/master/Screenshot/my-product-questions.png)
+![ScreenShot](https://github.com/php-cuong/magento2-product-question-and-answer/blob/master/Screenshot/configuration.png)
+![ScreenShot](https://github.com/php-cuong/magento2-product-question-and-answer/blob/master/Screenshot/question-list.png)
+![ScreenShot](https://github.com/php-cuong/magento2-product-question-and-answer/blob/master/Screenshot/sending-information.png)
+![ScreenShot](https://github.com/php-cuong/magento2-product-question-and-answer/blob/master/Screenshot/recent-questions.png)
+![ScreenShot](https://github.com/php-cuong/magento2-product-question-and-answer/blob/master/Screenshot/my-product-questions.png)
