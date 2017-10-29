@@ -48,3 +48,6 @@ Administrator goto STORES -> Configuration -> Catalog -> Catalog -> Product Ques
 ![ScreenShot](https://github.com/php-cuong/magento2-product-question-and-answer/blob/master/Screenshot/sending-information.png)
 ![ScreenShot](https://github.com/php-cuong/magento2-product-question-and-answer/blob/master/Screenshot/recent-questions.png)
 ![ScreenShot](https://github.com/php-cuong/magento2-product-question-and-answer/blob/master/Screenshot/my-product-questions.png)
+
+## See the Product Questions Pro Extension for the Magento 2 (Price $399)
+https://www.youtube.com/watch?v=mpdt2l3MDns
