@@ -6,6 +6,11 @@
  * @var $block \PHPCuong\ProductQuestionAndAnswer\Block\Form
  */
 ?>
+<style>
+    .question_popup_container {
+        display: none;
+    }
+</style>
 <?php if (!$block->getAllowToWrite()): ?>
     <style>
         .question-add {
@@ -40,7 +45,7 @@
     <?php /* @escapeNotVerified */ echo __('Only registered users can write questions. Please <a href="%1">Sign in</a> or <a href="%2">create an account</a>', $block->getLoginUrl(), $block->getRegisterUrl()) ?>
 </div>
 <?php endif; ?>
-<div id="question-popup-content" class="hidden-input">
+<div id="question-popup-content" class="question_popup_container">
     <?php echo $block->getChildHtml(); ?>
 </div>
 <script type="text/x-magento-init">
