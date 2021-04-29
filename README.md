@@ -4,6 +4,7 @@ This is an awesome module, It allows Customer or Guest to submit questions and a
 ## Features for this extension:
 ### This is a version non fully of the Product Question And Answer Pro extension for Magento 2
 - You can get the full version of this extension in the link **https://github.com/php-cuong/magento2-product-question-and-answer-pro**
+- This professional version of this extension link https://www.giaphugroup.com/magento-2-product-question-and-answer-extension.html
 
 ### Frontend:
 - Display the form allow to submit a question and an answer on the product detail page.
